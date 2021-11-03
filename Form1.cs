@@ -45,7 +45,7 @@ namespace WinFormApp_HitTheKeys
                 if (timer1.Interval > 250) timer1.Interval -= 7;
                 if (timer1.Interval > 100) timer1.Interval -= 2;
 
-                difficultyProgressBar.Value = 800 - timer1.Interval;//Заполнение ProgressBar`а
+                ProgressBar1.Value = 800 - timer1.Interval;//Заполнение ProgressBar`а
                 stats.Update(true); //Обновляем статистику.
             }
             else

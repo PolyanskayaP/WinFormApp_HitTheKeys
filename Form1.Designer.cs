@@ -102,7 +102,7 @@ namespace WinFormApp_HitTheKeys
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(503, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(472, 17);
             this.toolStripStatusLabel1.Spring = true;
             this.toolStripStatusLabel1.Text = "Difficulty";
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
